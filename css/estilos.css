@@ -1,0 +1,98 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: #fdf7fb;
+    color: #3b2f5c;
+    font-family: Arial, sans-serif;
+}
+
+/* Menú */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    background-color: #ccb8ec;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.menu a {
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 2px solid #3b2f5c;
+    border-radius: 20px;
+    background-color: white;
+    color: #3b2f5c;
+}
+
+.menu a:hover {
+    background-color: #e8aacb;
+}
+
+h1 {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.foto {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 15px;
+}
+
+/* Tarjetas */
+.tarjeta {
+    background-color: white;
+    border: 2px solid #ccb8ec;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.tarjeta img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+progress {
+    width: 100%;
+}
+
+/* Formulario */
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px 15px;
+    border: 2px solid #3b2f5c;
+    border-radius: 20px;
+    background-color: #e8aacb;
+    color: #3b2f5c;
+}
+
+/* Pie de página */
+footer {
+    background-color: #ccb8ec;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #3b2f5c;
+}
